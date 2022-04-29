@@ -20,3 +20,7 @@ class PlayerTest(unittest.TestCase):
 
         self.assertEqual(players[1].player_id, 'player4')
         self.assertEqual(players[1].home_runs, 3)
+
+
+if __name__ == '__main__':
+    unittest.main()

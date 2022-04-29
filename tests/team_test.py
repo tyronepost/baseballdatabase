@@ -11,3 +11,7 @@ class TeamTest(unittest.TestCase):
         self.assertIsNotNone(team)
 
         self.assertEqual(team.get_homerun_avg(), 2.50)
+
+
+if __name__ == '__main__':
+    unittest.main()
